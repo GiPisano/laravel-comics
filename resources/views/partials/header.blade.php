@@ -10,18 +10,38 @@
     <div class="nav-bar container">
         <ul class="list">
             <li class="container-logo">
-                <img src="{{url('/images/dc-logo.png')}}" alt="">
+                <img src="{{ url('/images/dc-logo.png') }}" alt="">
             </li>
-            <li>CHARACTERS</li>
-            <li>COMICS</li>
-            <li>MOVIES</li>
-            <li>TV</li>
-            <li>GAMES</li>
-            <li>VIDEOS</li>
-            <li>FANS</li>
-            <li>NEWS</li>
-            <li>SHOP</li>
-            <li><input type="text"></li>
+            <li>
+                <a href="#">CHARACTERS</a>
+            </li>
+            <li>
+                <a href="{{ route('comics')}}">COMICS</a>
+            </li>
+            <li>
+                <a href="#">MOVIES</a>
+            </li>
+            <li>
+                <a href="#">TV</a>
+            </li>
+            <li>
+                <a href="#">GAMES</a>
+            </li>
+            <li>
+                <a href="#">VIDEOS</a>
+            </li>
+            <li>
+                <a href="#">FANS</a>
+            </li>
+            <li>
+                <a href="#">NEWS</a>
+            </li>
+            <li>
+                <a href="#">SHOP</a>
+            </li>
+            <li>
+                <input type="text">
+            </li>
         </ul>
     </div>
 

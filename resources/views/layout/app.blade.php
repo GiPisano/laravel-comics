@@ -12,7 +12,13 @@
 
   <body>
     @include('partials.header')
-    @yield('main-content')
+
+    <div class="comics-section">
+        
+            @yield('main-content')
+        </div>
+    </div>
+    
     @include('partials.footer')
   </body>
 
