@@ -16,7 +16,7 @@
                 <a href="#">CHARACTERS</a>
             </li>
             <li>
-                <a href="{{ route('comics')}}">COMICS</a>
+                <a @if(Route::currentRouteName() == 'comics') class="active" @endif href="{{ route('comics')}}">COMICS</a>
             </li>
             <li>
                 <a href="#">MOVIES</a>

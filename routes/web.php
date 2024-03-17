@@ -18,4 +18,3 @@ Route::get('/', function () {
   $comics = config('comics');
   return view('comics', compact('comics'));
 })->name('comics');
-
