@@ -53,11 +53,11 @@
             <p class="btn-footer">SIGN-UP NOW!</p>
             <div class="social d-flex">
                 <p>FOLLOW US</p>
-                <img src="{{ url('/images/footer-facebook.png')}}" alt="">
-                <img src="{{ url('/images/footer-twitter.png')}}" alt="">
-                <img src="{{ url('/images/footer-youtube.png')}}" alt="">
-                <img src="{{ url('/images/footer-pinterest.png')}}" alt="">
-                <img src="{{ url('/images/footer-periscope.png')}}" alt="">
+                <a href="#"><img src="{{ url('/images/footer-facebook.png')}}" alt=""></a>
+                <a href="#"><img src="{{ url('/images/footer-twitter.png')}}" alt=""></a>
+                <a href="#"><img src="{{ url('/images/footer-youtube.png')}}" alt=""></a>
+                <a href="#"><img src="{{ url('/images/footer-pinterest.png')}}" alt=""></a>
+                <a href="#"><img src="{{ url('/images/footer-periscope.png')}}" alt=""></a>
             </div>
             
         </div>
