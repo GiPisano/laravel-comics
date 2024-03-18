@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 
+use App\Http\Controllers\PageController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,9 +16,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-Route::get('/', function () {
-  $comics = config('comics');
 
-  $links = config('links');
-  return view('comics', compact('comics', 'links'));
-})->name('comics');
+Route::get('/', [PageController::class, 'comics'])->name('comics');
+Route::get('/comic-detail/{index}', [PageController::class, 'comicDetail'])->name('comic-detail');

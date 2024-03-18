@@ -9,10 +9,12 @@
 
     <div class="row g-5 row-comics">
 
-        @foreach($comics as $comic)
+        @foreach($comics as $index => $comic)
 
         <div class="col-2 container-comic">
-            <img src="{{ $comic['thumb']}}" alt="{{ $comic['title']}}">
+            <a href="{{ route('comic-detail', ['index' => $index])}}">
+                <img src="{{ $comic['thumb']}}" alt="{{ $comic['title']}}">
+            </a>
             <p class="comics-series">{{ $comic['series']}}</p>
         </div>
 
