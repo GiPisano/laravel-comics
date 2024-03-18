@@ -1,4 +1,4 @@
-<footer>
+<footer id="footer">
     <div class="container">
         <div class="row">
             <div class="col-6">
@@ -45,6 +45,21 @@
                 <img src="{{ url('/images/dc-logo-bg.png')}}" alt="">
             </div>
 
+        </div>
+    </div>
+
+    <div class="footer-follow">
+        <div class="container d-flex">
+            <p class="btn-footer">SIGN-UP NOW!</p>
+            <div class="social d-flex">
+                <p>FOLLOW US</p>
+                <img src="{{ url('/images/footer-facebook.png')}}" alt="">
+                <img src="{{ url('/images/footer-twitter.png')}}" alt="">
+                <img src="{{ url('/images/footer-youtube.png')}}" alt="">
+                <img src="{{ url('/images/footer-pinterest.png')}}" alt="">
+                <img src="{{ url('/images/footer-periscope.png')}}" alt="">
+            </div>
+            
         </div>
     </div>
 </footer>

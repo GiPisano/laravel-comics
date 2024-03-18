@@ -128,7 +128,7 @@ cursor: pointer;
     z-index: -1;
 }
 
-footer{
+#footer{
     background-image: url('/public/images/footer-bg.jpg');
     background-size: cover;
 
@@ -164,6 +164,36 @@ footer{
             a{
                 font-size: 12px;
                 color: rgb(12, 105, 247);
+            }
+        }
+    }
+
+    .footer-follow{
+        background-color: rgb(36, 36, 36);
+        padding: 15px 0;
+        .container{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .btn-footer{
+            border: 2px solid rgb(12, 105, 247);
+            cursor: pointer;
+            padding: 8px;
+            font-weight: 300;
+            font-size: 14px;
+            color: white;
+        }
+
+        .social{
+            color: rgb(12, 105, 247);
+            display: flex;
+            gap: 10px;
+
+            img{
+                width: 20px;
+                height: 20px;
             }
         }
     }
